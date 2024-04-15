@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                Ajok Kuech Ajok Deng
+                <br>
+                <img src="images/envelope.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                ajokkuech@gmail.com
+                <br>
+                <img src="images/phone.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                +211 922591515
+              </a>
+    
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills-section">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#previous-projects">Projects</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+
+    <!-- About Section  -->
+    <section id="about">
+      <div class="about-img">
+        <img class="round-image" src="images/AJOK PIC.jpg" alt="About Me">
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me!</span></h2>
+        <p>Hi there! My name is Ajok Kuech Ajok and I'm a frontend developer with a passion for creating beautiful and user-friendly websites. I have experience with HTML, CSS, JavaScript, and various front-end frameworks such as React and Vue. When I'm not coding, you can find me playing Chess or chilling .</p>
+        <button class="btn">Read More</button>
+      </div>
+    </section>
+    <hr>
+    <!-- Skill Section  -->
+    <section class="skills-section" id="skills-section" >
+      <h2>My <span>Skills</span></h2>
+      <div class="skill-container">
+        <div class="skill-item">
+          <div class="skill-info">
+            <label class="skill-name">HTML</label>
+            <label class="skill-value">90%</label>
+          </div>
+          <div class="skill-bar html"></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <label class="skill-name">CSS</label>
+            <label class="skill-value">80%</label>
+          </div>
+          <div class="skill-bar css"></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <label class="skill-name">JavaScript</label>
+            <label class="skill-value">60%</label>
+          </div>
+          <div class="skill-bar javascript"></div>
+        </div>
+      </div>
+    </section>
+
+    <h2 class="section-heading" text-center>My <span>Hobbies</span></h2>
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="https://plus.unsplash.com/premium_photo-1675762226695-bec5748d4d00?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 c-img" alt="Slide 1">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">My Hobby</p>
+            <h1 class="display-1 fw-bolder text-capitalize">Playing Chess</h1>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="https://media.istockphoto.com/id/1188433175/photo/happy-father-looking-at-cheerful-son-and-exercising-with-dumbbells.jpg?s=1024x1024&w=is&k=20&c=W3EL-Mr14gDV6EVjIfwxA_QRGVakyxLtbRpFVV856x8=" class="d-block w-100 c-img" alt="Slide 2">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="text-uppercase fs-3 mt-5">My Hobby</p>
+            <p class="display-1 fw-bolder text-capitalize">Workout</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="https://media.istockphoto.com/id/1354205065/photo/enthusiastic-white-it-programmer-working-on-desktop-computer-male-specialist-creating.jpg?s=1024x1024&w=is&k=20&c=40Z2knYeJzpBFoGiTHrZnH0zslWVwuPNOf0vOpALwdM=" class="d-block w-100 c-img" alt="Slide 3">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="text-uppercase fs-3 mt-5">My Hobby</p>
+            <p class="display-1 fw-bolder text-capitalize">Coding</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <hr>
+    <!-- Project Section  -->
+    <section class="previous-projects" id="previous-projects">
+      <div class="container">
+        <h2 class="section-heading">Previous <span>Projects</span></h2>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="images/p1.jpg" class="card-img-top" alt="Project-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Google </h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="images/p2.jpg" class="card-img-top" alt="Project-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Facebook</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="images/p3.jpg" class="card-img-top" alt="Project-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Twitter</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    
+
+<footer>
+ <div class="my- bg-primary">
+
+  <footer class="text-center text-lg-start  mt-xl-5 pt-4">
+  <!-- Grid container -->
+  <div class=" p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4">Quick links</h5>
+
+        <ul class="list-unstyled mb-4">
+          <li>
+            <a href="#" class="text-white">Home</a>
+          </li>
+          <li>
+            <a href="about" class="text-white">About</a>
+          </li>
+          <li>
+            <a href="#skills-section" class="text-white">Skills</a>
+          </li>
+          <li>
+            <a href="#previous-projects" class="text-white">Projects</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4">Contact</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.linkedin.com/in/ajok-kuech-ajok-592153253/"><i class="fa-brands fa-linkedin " style="color: white;"></i>&nbsp; &nbsp; <span>Linkedin</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter" style="color: white;"></i>&nbsp; &nbsp; <span>Twitter</span></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/ajokkuech.ajok?mibextid=LQQJ4d"><i class="fab fa-facebook-f" style="color: white;"></i>&nbsp; &nbsp; <span>Facebook</span></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ajokkuech?igsh=YXp4Yzh5ZTVsdDN5&utm_source=qr"><i class="fab fa-instagram" style="color: white;"></i>&nbsp; &nbsp; <span>Instagram</span></a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4"></h5><br>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="tel: +211 (0)92 - 259 15 15"><i class="fas fa-phone" style="color: white;"></i>&nbsp;&nbsp;<span>+211 (0)92 - 259 15 15</span></a>
+          </li>
+          <li>
+            <a href="mailto:ajokkuech@gmail.com"><i class="fas fa-envelope" style="color: white;"></i>&nbsp;&nbsp;<span>ajokkuech@gmail.com</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-map-marker-alt" style="color: white;"></i>&nbsp;&nbsp;<span>Busanza</span></a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4">Sign up to My newsletter</h5>
+
+        <div class="form-outline form-white mb-4">
+          <input type="email" id="form5Example2" class="form-control" />
+          <label class="form-label" for="form5Example2">Email address</label>
+        </div>
+
+        <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 text-white">
+    © 2024 Copyright All Rights Reserved. Designed By Ajok Kuech Ajok!
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</div>
+<!-- End of .container -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
